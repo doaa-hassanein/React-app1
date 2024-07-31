@@ -1,0 +1,316 @@
+nav {
+    background-color: #2c3e50;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+.active {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("./assets/download.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.55rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: black;
+    background-color: transparent;
+    border: 1px solid  black;
+    border-radius: .375rem;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+/* navbar  */
+
+/* ************************************************************** about*************************************************** */
+
+
+.about {
+    background-color: #1abc9c;
+    color: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+.about .line {
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.about h1 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    line-height: 1.5;
+    text-align: start;
+    font-size: 17px;
+}
+
+
+/* ************************************************************** about*************************************************** */
+
+
+
+.contact-sec label{
+    color: #1abc9c;
+  
+}
+
+
+
+
+
+.fa-solid .fa-star {
+    color: #2c3e50 !important;
+}
+
+
+.contact-header {
+    color: #1a252f;
+}
+
+.contact-sec .line {
+    background-color: #2c3e50;
+    width: 90px;
+    height: 4px;
+}
+
+.contact-header h2 {
+    color: #2c3e50;
+    /* margin-top: 5px; */
+
+}
+
+.contact-sec input {
+
+    margin-bottom: 20px;
+
+}
+
+.contact-sec form {
+    margin-top: 60px !important;
+    margin-bottom: 30px;
+}
+
+/* ************************************************************************************************************************** */
+
+
+.home {
+    background-color: #1abc9c;
+    color: #fff;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 0px;
+
+}
+
+
+.home-header .line {
+    background-color: #fff;
+    width: 90px;
+    height: 4px;
+}
+
+.home-header h2 {
+    color: #fff;
+
+
+}
+
+
+
+/* *************************************************************************************************************************** */
+
+.protfolio-sec .line {
+    background-color: #2c3e50;
+    width: 90px;
+    height: 4px;
+}
+
+.protfolio-header h1 {
+    color: #2c3e50;
+    /* margin-top: 10px; */
+    letter-spacing: 2px;
+
+}
+
+.protfolio-sec {
+    position: relative;
+}
+
+
+.protfolio-sec .desc {
+    background-color: #1abc9c;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.75s;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+}
+
+.protfolio-sec .inner {
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.inner:hover .desc {
+    opacity: 1;
+    height: 100%;
+}
+
+
+.footer {
+    background-color: #2c3e50;
+}
+
+.footer .footer-card {
+    background-color: transparent;
+    display: flex;
+    flex-flow: row wrap;
+    /* margin: 1.5rem; */
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.footer .card {
+    padding: 40px;
+    background-color: #2c3e50 !important;
+    color: #fff !important;
+    text-align: center;
+    margin: 0px;
+    border: none;
+
+}
+
+.footer .p {
+    background-color: #1a252f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+.card-group>.card:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+.card {
+    --bs-card-border-color: none;
+    --bs-card-bg: transparent;
+    color: #fff;
+}
+
+
+.footer .icon {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px white solid;
+    color: #fff !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+.slide-fwd-center {
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-7-30 18:11:10
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-fwd-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+
+@keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
