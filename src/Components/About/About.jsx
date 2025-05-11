@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../MainNavbar/MainNavbar';
 import Footer from '../Footer/Footer';
 
 
@@ -44,7 +44,7 @@ export default function About() {
 
 
             </section> */}
-            <Navbar />
+          
             <section className="about text-white d-flex justify-content-center align-items-center">
                 <div>
                     <div className="text-center pt-4" style={{ color: 'white' }}>
@@ -71,7 +71,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <Footer />
+           
 
         </>
     )

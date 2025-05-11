@@ -44,6 +44,8 @@ nav {
     -o-transition: 1s;
 }
 
+
+
 /* navbar  */
 
 /* ************************************************************** about*************************************************** */
@@ -56,7 +58,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 75vh;
     margin-bottom: 0px;
 }
 
@@ -86,10 +88,6 @@ nav {
     color: #1abc9c;
   
 }
-
-
-
-
 
 .fa-solid .fa-star {
     color: #2c3e50 !important;

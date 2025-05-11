@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../MainNavbar/MainNavbar';
 import Footer from '../Footer/Footer';
 import { useState } from 'react';
 import 'animate.css';
@@ -25,7 +25,6 @@ const Contact = () => {
 
     return (
         <div>
-            <Navbar />
             <section className='contact-sec h-75'>
                 <div className=" ">
                     <div className="pt-3 container">
@@ -90,7 +89,6 @@ const Contact = () => {
 
 
 
-            <Footer />
         </div>
     );
 };
