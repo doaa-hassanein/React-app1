@@ -21,7 +21,6 @@ const Portfolio = () => {
 
   return (
     <div>
-     
       <section className="protfolio-sec mb-5 h-100">
         <div className=" ">
           <div className="pt-3 container">
